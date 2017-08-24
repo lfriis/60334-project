@@ -1,4 +1,4 @@
-# 60334-project
+# LF Hospital Project
 Designing and developing a Hospital Management System
 
 All specifications and details are attached inside Proposal/Final Project document.
