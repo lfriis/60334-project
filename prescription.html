@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prescriptions</title>
+</head>
+
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <center><img src ="../images/Logo.jpg" alt="LF Logo" style="width:220px;height:220px;"></center>
+
+  <ul id="navlist">
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/schedule.php">Schedule</a></li>
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/patients.html">Patients</a></li>
+    <li><a class="active" href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/prescriptions.html">Prescriptions</a></li>
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/contact.html">Contact Admin</a></li>
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/logout.php">Logout</a></li>
+  </ul>
+
+<form action="prescriptions.php" method="post">
+  <label for="med_name">Medicine Name</label>
+  <input type="text" name="med_name" required/></br>
+  <label for="refills">Refills</label>
+  <input type="number" name="refills" required/>
+  <label for="pres_size">Prescription Size</label>
+  <input type="number" name="pres_size" required/>
+  <label for="date_from">Date From</label>
+  <input type="date" name="date_from" required/></br>
+  <label for="date_to">Date To</label>
+  <input type="date" name="date_to" required/></br>
+  <label for="pres_order_by">Prescribed By:</label>
+  <select name="pres_order_by">
+      <option>Dr. John Doe</option>
+      <option>Dr. Rick Smith</option>
+  </select></br>
+  <input id="button" type="submit" name="submit" value="Submit">
+</form>
+
+<form action="displayPrescriptions.php" method="post">
+  <input id="button" type="submit" name="displayAll" value="Show All Prescriptions">
+</form>
+
+<footer>
+    Copyright &copy; LF HOSPITAL 2017 ALL RIGHTS RESERVED
+</footer>
+</body>
+</html>
