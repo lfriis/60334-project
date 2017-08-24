@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Admin</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <center><img src ="../images/Logo.jpg" alt="LF Logo" style="width:220px;height:220px;"></center>
+
+  <body>
+  <ul id="navlist">
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/schedule.php">Schedule</a></li>
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/patients.html">Patients</a></li>
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/prescriptions.html">Prescriptions</a></li>
+    <li><a class="active" href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/contact.html">Contact Admin</a></li>
+    <li><a href="http://friis.myweb.cs.uwindsor.ca/60334/project/html/logout.php">Logout</a></li>
+  </ul>
+
+</br></br>
+<div id="contact">
+  <form action="contact.php" method="post">
+       <label for="name">Name</label>
+       <input type"text" name="name" required/></br>
+       <label for="email">Email</label>
+       <input type="email" name="email" required/></br>
+       <label for="phone">Phone</label>
+       <input type="text" name="phone" required/><br>
+       <textarea id="message" name="message" cols="50" rows="10" required/>Write message here...</textarea></br>
+       <input id="button" type="submit" name="submit" value="Send">
+  </form>
+</div>
+
+<footer>
+    Copyright &copy; LF HOSPITAL 2017 ALL RIGHTS RESERVED
+</footer>
+</body>
+</html>
