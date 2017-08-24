@@ -1,4 +1,12 @@
 # 60334-project
 Designing and developing a Hospital Management System
 
-All specifications and details are attached inside Proposal document.
+All specifications and details are attached inside Proposal/Final Project document.
+- [x] phpMyAdmin database
+- [x] Login page
+- [x] Registration page
+- [x] Schedule page
+- [x] Patient page
+- [x] Prescription page
+- [x] Contact admin page
+- [x] Logout page
