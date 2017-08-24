@@ -1,0 +1,21 @@
+p, a {
+    font-size:20px;
+    font-family: "Verdana", Geneva, sans-serif;
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Verdana", Geneva, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
