@@ -10,4 +10,4 @@ All specifications and details are attached inside Proposal/Final Project docume
 - [x] Prescription page
 - [x] Contact admin page
 - [x] Logout page
-*All INPUTTED REGISTRATION DATA IS SAFELY ENCRYPTED AND STORED*
+- *All INPUTTED REGISTRATION DATA IS SAFELY ENCRYPTED AND STORED*
