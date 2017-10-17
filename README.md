@@ -3,11 +3,7 @@ Designing and developing a Hospital Management System
 
 http://friis.myweb.cs.uwindsor.ca/60334/project/html/login.html
 
-Login Credentials:
-Username: admin
-Password: 334120383b20064110816e4c5bf6e2
-
-All specifications and details are attached inside Proposal/Final Project document.
+All specifications, login credentials, and details are attached inside Proposal/Final Project document.
 - [x] phpMyAdmin database
 - [x] Login page
 - [x] Registration page
