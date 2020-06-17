@@ -4,7 +4,7 @@ Designing and developing a Hospital Management System
 http://friis.myweb.cs.uwindsor.ca/60334/project/html/login.html
 
 All specifications, login credentials, and details are attached inside Proposal/Final Project document.
-- [x] phpMyAdmin database
+- [x] MySQL database
 - [x] Login page
 - [x] Registration page
 - [x] Schedule page
